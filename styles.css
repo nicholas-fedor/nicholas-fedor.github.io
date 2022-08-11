@@ -13,8 +13,6 @@ html {
 
 body {
     background-color: rgba(13, 17, 23, 0.382);
-    line-height: 1.5;
-
 }
 
 main {
@@ -37,10 +35,21 @@ body header h1 {
     margin: 0;
 }
 
+html body main p {
+    text-align: center;
+}
+
 .filler-image {
+    display: block;
+    margin: auto;
     image-rendering: auto;
-    width: 100%;
-    height: auto;
+    image-orientation: from-image;
+    max-width: 100%;
+    width: fit-content;
+    max-height: 100%;
+    object-fit: cover;
+    text-align: center;
+    inset: 0;
 }
 
 .footer {
