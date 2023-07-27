@@ -21,22 +21,15 @@ main {
 
 body header {
     display: flex;
+    margin: 16px;
     padding: 16px;
-    font-size: 14px;
+    font-size: 18px;
     text-align: center;
     justify-content: center;
 }
 
-body header svg {
-    padding: 10px;
-}
-
 body header h1 {
     margin: 0;
-}
-
-html body main p {
-    text-align: center;
 }
 
 .filler-image {
@@ -55,6 +48,7 @@ html body main p {
 .footer {
     position: static;
     bottom: 0;
+    padding: 16px;
     width: 100%;
 }
 
@@ -82,6 +76,11 @@ html body main p {
 }
 
 .github-icon {
+    fill: #fff;
+    height: 2rem;
+}
+
+.linkedin-icon {
     fill: #fff;
     height: 2rem;
 }
