@@ -13,10 +13,14 @@ html {
 
 body {
     background-color: rgba(13, 17, 23, 0.382);
+    margin: 12px;
+    justify-content: center;
 }
 
 main {
     padding: 12px;
+    margin: 12px;
+    justify-content: center;
 }
 
 body header {
@@ -46,9 +50,9 @@ body header h1 {
 }
 
 .footer {
-    position: static;
+    position: flex;
     bottom: 0;
-    padding: 16px;
+    padding-top: 16px;
     width: 100%;
 }
 
